@@ -1,6 +1,5 @@
 import { NextPage } from 'next';
 import React from 'react';
-import useEffect from 'react;
 import { TransactionsLink } from '../buttons/TransactionsLink';
 import { PoweredBy } from '../sections/PoweredBy';
 import { Progress } from '../sections/Progress';
