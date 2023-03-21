@@ -6,6 +6,8 @@ import { TransactionsLink } from '../buttons/TransactionsLink';
 import { PoweredBy } from '../sections/PoweredBy';
 import { Progress } from '../sections/Progress';
 import css from './ConfirmedPage.module.css';
+import { useRouter } from 'next/router';
+
 
 const ConfirmedPage: NextPage = () => {
     const router = useRouter();
